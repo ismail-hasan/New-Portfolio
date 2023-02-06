@@ -42,16 +42,16 @@ const Navbar = () => {
                                     <ul className='px-5 py-5'>
                                         <div className='flex items-center pt-5'>
                                             <AiFillHome className='text-[25px] mr-2' ></AiFillHome>
-                                            <Link to="/home">Home</Link> <br />
+                                            <Link to="/home">About Us</Link> <br />
                                         </div>
 
                                         <span className='flex items-center pt-5'>
                                             <FaUserTie className='text-[25px] mr-2' ></FaUserTie>
-                                            <Link to="/student">All Students</Link> <br />
+                                            <Link to="/student">Services</Link> <br />
                                         </span>
                                         <span className='flex items-center pt-5'>
                                             <TfiGallery className='text-[25px] mr-2' ></TfiGallery>
-                                            <Link to="/gallery">Gallery</Link> <br />
+                                            <Link to="/gallery">Contact Us</Link> <br />
                                         </span>
                                         <span className='flex items-center pt-5'>
                                             <GiTeacher className='text-[25px] mr-2' ></GiTeacher>
